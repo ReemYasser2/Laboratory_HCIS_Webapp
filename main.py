@@ -5,7 +5,7 @@ from flask import Flask, redirect, url_for, request, render_template, session, m
 from datetime import datetime
 now = datetime.now()
 formatted_date = now.strftime('%Y-%d-%m %H:%M:%S')
-
+#test test 12345
 mydb = mysql.connector.connect(
     host="hospital-lab.mysql.database.azure.com",
     user="lab_admin",
